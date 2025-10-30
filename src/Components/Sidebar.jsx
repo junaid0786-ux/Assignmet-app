@@ -13,9 +13,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="bg-gray-300 w-[25%] h-screen p-5 flex items-center justify-center fixed top-0 left-0">
-      <div className="bg-gray-100 w-full h-full rounded-2xl shadow-2xl flex-col justify-center items-center gap-1">
-        <div className="bg-amber-300 w-full flex items-center justify-center p-4 rounded-tr-2xl rounded-tl-2xl">
+    <div className="bg-amber-100 w-[25%] h-screen p-5 flex items-center justify-center fixed top-0 left-0">
+      <div className="bg-gray-100 w-full h-full rounded-2xl shadow-2xl flex-col justify-center items-center gap-1 overflow-hidden">
+        <div className="bg-amber-300 w-full flex items-center justify-center p-4 ">
           <h1>
             <b><Link to="/">Assignment</Link></b>
           </h1>

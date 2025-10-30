@@ -10,24 +10,22 @@ import Form from './Page/Form'
 const App = () => {
   return (
     <>
-    <div className='flex '>
-       <BrowserRouter>
-       <Sidebar />
+    <BrowserRouter>
+      <div className="flex">
+      
+        <Sidebar />
 
-   <Routes>
-     <Route path={"/"} element={<Home/>}/>
-     <Route path={"/List"} element={ <List/>}/>
-     <Route path={"/Table"} element={<Table/>}/>
-     <Route path={"/Form"} element={<Form/>}/>
-    
-    
-    
-     
-
-   </Routes>
-   </BrowserRouter>
-
-    </div>
+      
+        <div className="ml-[25%] w-[75%] ">
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/List" element={<List />} />
+            <Route path="/Table" element={<Table />} />
+            <Route path="/Form" element={<Form />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
     </>
   )
 }

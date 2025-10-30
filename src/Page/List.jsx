@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import bgImage from '../Assets/image.jpg'
 const List = () => {
   return (
-   <div className="  bg-gray-200 flex flex-col w-full h-auto items-center justify-center p-10 pt-15  gap-30 ">
-    <section id='section1' className='' >
+   <div  className="relative w-full h-screen bg-fixed bg-cover bg-center overflow-y-auto"
+  style={{ backgroundImage: `url(${bgImage})` }}>
+  <div className=" bg-transparent flex flex-col w-full h-auto items-center justify-center p-10 gap-30 " >
+    <section id='section1' className='  flex flex-col w-full h-auto items-center justify-center p-10 gap-30 ' >
      
-      <div className="bg-white w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden ml-90">
+      <div className="bg-white w-100 h-150 border rounded-lg shadow-2xl overflow-hidden">
         <div className="bg-amber-300 flex justify-center p-2 ">
           <h1 className="">
             <b>Task 1:</b>
@@ -47,8 +49,8 @@ const List = () => {
       </div>
     </section>
 
-    <section id='section2'>
-    <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden ml-90'>
+    <section id='section2' className=' flex flex-col w-full h-auto items-center justify-center p-10 gap-30'>
+    <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden'>
       <div className='bg-amber-300 flex justify-center p-2'>
         <h1><b>Task 2:</b></h1> <hr />
       </div>
@@ -106,9 +108,9 @@ const List = () => {
     </div>
     </section>
 
-    <section id='section3'>
+    <section id='section3' className='  flex flex-col w-full h-auto items-center justify-center p-10 gap-30'>
 
-      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden ml-90'>
+      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden '>
         <div className='bg-amber-300 flex justify-center p-2'>
           <h1><b>Task 3:</b></h1>
         </div>
@@ -159,9 +161,9 @@ const List = () => {
 
     </section>
 
-    <section id='section4'>
+    <section id='section4' className=' flex flex-col w-full h-auto items-center justify-center p-10 gap-30'>
 
-      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden ml-90'>
+      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden'>
         <div className='bg-amber-300 flex justify-center p-2'>
           <h1><b>Task 4:</b></h1>
         </div>
@@ -239,8 +241,8 @@ const List = () => {
 
     </section>
 
-    <section id='section5'>
-      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden ml-90'>
+    <section id='section5' className='  flex flex-col w-full h-auto items-center justify-center p-10 gap-30'>
+      <div className=' w-100 h-150 border rounded-lg shadow-2xl  overflow-hidden '>
         <div className='bg-amber-300 flex justify-center p-2'>
           <h1>Task 5:</h1>
          </div>
@@ -301,6 +303,7 @@ const List = () => {
       </div>
 
     </section>
+   </div>
    </div>
     
   )
