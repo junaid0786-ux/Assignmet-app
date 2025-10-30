@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import bgImage from '../Assets/image.jpg'
+import bgImage from '../assets/img.jpg'
 const List = () => {
   return (
    <div  className="relative w-full h-screen bg-fixed bg-cover bg-center overflow-y-auto"
   style={{ backgroundImage: `url(${bgImage})` }}>
-  <div className=" bg-transparent flex flex-col w-full h-auto items-center justify-center p-10 gap-30 " >
+
+  <div className=" bg-amber-200/70 flex flex-col w-full h-auto items-center justify-center p-10 gap-30 " >
     <section id='section1' className='  flex flex-col w-full h-auto items-center justify-center p-10 gap-30 ' >
      
       <div className="bg-white w-100 h-150 border rounded-lg shadow-2xl overflow-hidden">

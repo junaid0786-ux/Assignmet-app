@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+@keyframes motion {
+    0%, 100% { transform: translateX(0px); }
+    50% { transform: translateX(10px); }
+    50% { transform: translateY(10px); }
+}
+
+.animate-motion {
+    animation: motion 2s ease-in-out infinite;
+}
