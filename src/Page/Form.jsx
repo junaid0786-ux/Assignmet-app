@@ -455,7 +455,7 @@ const Form = () => {
             </div>
             <div className="bg-amber-100 h-full flex flex-col items-center p-10 justify-center overflow-y-auto">
               <div>
-                <div className="">
+                <div className="mb-20">
                   <form className="bg-white shadow-lg border border-gray-300 p-6 rounded-lg w-full max-w-5xl">
                     <h2 className="text-2xl font-bold text-center mb-6">
                       Registration Form
