@@ -51,7 +51,7 @@ const Sidebar = () => {
           <Link
             to="/List"
             className={`w-full flex items-center justify-between p-4 rounded-2xl transition-all duration-300 ${
-              isListPage ? "bg-gray-300" : "bg-white hover:bg-amber-200"
+              isListPage ? "bg-gray-300" : "bg-white hover:bg-amber-300"
             }`}
             onClick={(e) => {
               if (
@@ -86,7 +86,7 @@ const Sidebar = () => {
           <Link
             to="/Table"
             className={`w-full flex items-center justify-between p-4 rounded-2xl transition-all duration-300 ${
-              isTablePage ? "bg-gray-300" : "bg-white hover:bg-amber-200"
+              isTablePage ? "bg-gray-300" : "bg-white hover:bg-amber-300"
             }`}
             onClick={(e) => {
               if (
@@ -121,7 +121,7 @@ const Sidebar = () => {
           <Link
             to="/Form"
             className={`w-full flex items-center justify-between p-4 rounded-2xl transition-all duration-300 ${
-              isFormPage ? "bg-gray-300" : "bg-white hover:bg-amber-200"
+              isFormPage ? "bg-gray-300" : "bg-white hover:bg-amber-300"
             }`}
             onClick={(e) => {
               if (
