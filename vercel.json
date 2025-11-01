@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+        {
+        "src": "packege.json",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+        "src": "/(.*)",
+        "dest": "/index.html"
+        }
+    ], 
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/" }
+    ]
+}
