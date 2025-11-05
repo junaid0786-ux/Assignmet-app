@@ -83,7 +83,7 @@ const List = () => {
           <div className="bg-amber-300 w-full flex items-center justify-center p-2 font-extrabold">
             <h1>Task 4:</h1>
           </div>
-          <div className="w-full h-full flex flex-col overflow-auto p-20 ">
+          <div className="w-full h-full flex flex-col overflow-auto ">
             <ListTask4 />
           </div>
           <Link to="/ListTask4">
@@ -100,7 +100,7 @@ const List = () => {
         id="section5"
         className="h-screen w-full flex items-center justify-center p-10 bg-amber-200/70 "
       >
-        <div className="bg-amber-100 w-200 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden  ">
+        <div className="bg-amber-100 w-150 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden  ">
           <div className="bg-amber-300 w-full flex items-center justify-center p-2 font-extrabold">
             <h1>Task 5:</h1>
           </div>

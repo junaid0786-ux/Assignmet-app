@@ -2,8 +2,8 @@ import React from "react";
 
 const ListTask3 = () => {
   return (
-    <div className="bg-amber-100 h-screen w-full flex items-center justify-center ">
-      <div className="bg-white w-100 h-150 border flex flex-col p-6 gap-2 rounded-lg shadow-lg overflow-hidden overflow-y-auto">
+    <div className="bg-amber-100 h-full p-20 w-full flex items-center justify-center ">
+      <div className="bg-white w-100 h-180 border flex flex-col p-6 gap-2 rounded-lg shadow-lg overflow-hidden ">
         <ol className="list-decimal p-3">
           <li>
             <b> HTML is an __________ ?</b>
