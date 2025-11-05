@@ -38,7 +38,7 @@ const Sidebar = () => {
   const isFormPage = currentPath === "/Form";
 
   return (
-    <div className="bg-amber-100 w-[25%] h-screen p-5 flex items-center justify-center fixed top-0 left-0">
+    <div className="bg-gray-200 w-[25%] h-screen p-5 flex items-center justify-center fixed top-0 left-0">
       <div className="bg-gray-200 w-full h-full rounded-2xl shadow-2xl flex flex-col  items-center gap-5 overflow-hidden ">
         <div className="bg-amber-300 w-full flex items-center justify-center p-4 shadow-md">
           <h1 className="text-lg font-bold">
@@ -149,6 +149,7 @@ const Sidebar = () => {
               <option value="section2">Task 2</option>
               <option value="section3">Task 3</option>
               <option value="section4">Task 4</option>
+              <option value="section5">Task 5</option>
             </select>
           </Link>
         </div>
