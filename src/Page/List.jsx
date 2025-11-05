@@ -58,7 +58,7 @@ const List = () => {
         id="section3"
         className="h-screen w-full flex items-center justify-center p-10 bg-amber-200/70 "
       >
-        <div className="bg-amber-100 w-170 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden  ">
+        <div className="bg-amber-100 w-150 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden  ">
           <div className="bg-amber-300 w-full flex items-center justify-center p-2 font-extrabold">
             <h1>Task 3:</h1>
           </div>
