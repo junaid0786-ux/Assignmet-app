@@ -17,14 +17,14 @@ const Form = () => {
         id="section1"
         className="h-screen w-full flex items-center justify-center p-10 bg-amber-200/70 "
       >
-        <div className="bg-amber-100 w-150 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden justify-center  ">
+        <div className="bg-amber-100 w-150 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden justify-center absolute ">
           <div className="bg-amber-300 w-full flex items-center justify-center p-2 font-extrabold">
             <h1>Task 1:</h1>
           </div>
           <FormTask1 />
           <Link to="/FormTask1">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -44,8 +44,8 @@ const Form = () => {
             <FormTask2 />
           </div>
           <Link to="/FormTask2">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -64,8 +64,8 @@ const Form = () => {
             <FormTask3 />
           </div>
           <Link to="/FormTask3">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -77,7 +77,7 @@ const Form = () => {
         id="section4"
         className="h-screen w-full flex items-center justify-center p-10 bg-amber-200/70 "
       >
-        <div className="bg-amber-100 w-200 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden  ">
+        <div className="bg-amber-100 w-200 h-150 flex flex-col border rounded-lg shadow-2xl overflow-hidden">
           <div className="bg-amber-300 w-full flex items-center justify-center p-2 font-extrabold">
             <h1>Task 4:</h1>
           </div>
@@ -85,8 +85,8 @@ const Form = () => {
             <FormTask4 />
           </div>
           <Link to="/FormTask4">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>

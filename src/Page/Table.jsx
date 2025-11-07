@@ -22,8 +22,8 @@ const Table = () => {
           </div>
           <TableTask1 />
           <Link to="/TableTask1">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -43,8 +43,8 @@ const Table = () => {
             <TableTask2 />
           </div>
           <Link to="/TableTask2">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -63,8 +63,8 @@ const Table = () => {
             <TableTask3 />
           </div>
           <Link to="/TableTask3">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -84,8 +84,8 @@ const Table = () => {
             <TableTask4 />
           </div>
           <Link to="/TableTask4">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
@@ -105,8 +105,8 @@ const Table = () => {
             <TableTask5 />
           </div>
           <Link to="/TableTask5">
-            <div className=" w-full flex justify-end ">
-              <div className="bg-amber-300 p-2 mr-5 mb-5 w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300">
+            <div className=" w-full h-full flex justify-end relative ">
+              <div className="bg-amber-300 p-2  w-20 rounded-full border-3 border-amber-400 flex items-center justify-center text-sm font-medium hover:bg-amber-400 cursor-pointer active:scale-95 transition-all duration-300 absolute bottom-5 right-8 shadow-2xl ">
                 View
               </div>
             </div>
